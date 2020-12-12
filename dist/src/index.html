@@ -1,10 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Paradise</title>
         <meta name="keyword" content="hotel,book,reservation,rooms">
         <meta name="description" content="design hotel website">
-        <meta http-equiv="X-UI-Compatible" content="IE-edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="author" content="mohamed hesham">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/all.css">
@@ -19,7 +20,7 @@
     <body>
       <!-- start of navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <img class="navbar-brand img-fluid" src="images/logo.png">
+            <img class="navbar-brand img-fluid" src="images/logo.png" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -69,11 +70,11 @@
                 <div class="container">
                       <div class="inputs" data-aos="fade-in"  data-aos-offset="200" data-aos-duration="5000">
                           <h2 class="h1"> <i class="fas fa-crown"></i> &nbsp;Paradise Hotel</h2>
-                          <form class="form-group" action="get">
+                          <form class="form-group" method="get">
 
                             <div class="row">
                               <div class="check-in col-md-6 col-sm-12">
-                              <label for="">Check In</label> <br>
+                              <label>Check In</label> <br>
                               <input class="form-control" type="date">
                             </div>
 
@@ -107,7 +108,7 @@
                   <h3>About</h3>
                   <div class="row">
 
-                    <div class="col-md-6 col-sm-12" data-aos="fade-right"  data-aos-offset="100" data-aos-duration="10000"  data-aos-easing="ease-in-out"data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+                    <div class="col-md-6 col-sm-12" data-aos="fade-right"  data-aos-offset="100" data-aos-duration="10000"  data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
                       <div class="paragraph">
                         <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aut pariatur placeat quis ducimus, voluptas fugiat asperiores illo, doloremque cupiditate sit cum itaque doloribus distinctio mollitia, eius soluta totam consectetur cupiditate sit cum itaque doloribus distinctio mollitia, eius so cupiditate sit cum itaque doloribus distinctio mollitia, eius so cupiditate sit cum itaque doloribus distinctio mollitia, eius so.</p>
                         <p class="lead">We Accept: <i class="fab fa-cc-paypal"></i> <i class="fab fa-cc-mastercard"></i> <i class="far fa-credit-card"></i> <i class="fab fa-cc-amex"></i> </p>
@@ -159,7 +160,7 @@
                           <p class="lead">Single Bed</p>
                           <p class="lead">15m<sup>2</sup></p>
                           <p class="lead"><i class="fas fa-bath"></i> <i class="fas fa-wifi"></i> <i class="fas fa-phone-volume"></i></p>
-                          <button class="btn btn-dark" type="button"><a class="text-decoration-none" href="/rooms.html#singleBedPage"> Choose Room</a></button>
+                          <div class="btn btn-dark"><a class="text-decoration-none" href="rooms.html#singleBedPage"> Choose Room</a></div>
                         </div>
                       </div>
                     </div>
@@ -175,7 +176,7 @@
                           <p class="lead">Tween Bed</p>
                           <p class="lead">25m<sup>2</sup></p>
                           <p class="lead"><i class="fas fa-bath"></i> <i class="fas fa-wifi"></i> <i class="fas fa-phone-volume"></i> <i class="fas fa-tv"></i></p>
-                          <button class="btn btn-dark" type="button"><a class="text-decoration-none" href="/rooms.html#doubleBedPage"> Choose Room</a></button>
+                          <div class="btn btn-dark"><a class="text-decoration-none" href="rooms.html#doubleBedPage"> Choose Room</a></div>
                         </div>
                       </div>
                     </div>
@@ -191,7 +192,7 @@
                           <p class="lead">2 twin Beds</p>
                           <p class="lead">30m<sup>2</sup></p>
                           <p class="lead"><i class="fas fa-bath"></i> <i class="fas fa-wifi"></i> <i class="fas fa-phone-volume"></i> <i class="fas fa-tv"></i> <i class="fas fa-wine-glass-alt"></i> <i class="fas fa-utensils"></i></p>
-                          <button class="btn btn-dark" type="button"><a class="text-decoration-none" href="/rooms.html#deluxeBedPage"> Choose Room</a></button>
+                          <div class="btn btn-dark"><a class="text-decoration-none" href="rooms.html#deluxeBedPage"> Choose Room</a></div>
                         </div>
                       </div>
                     </div>
@@ -207,7 +208,7 @@
                           <p class="lead">King & Queen Beds</p>
                           <p class="lead">45m<sup>2</sup></p>
                           <p class="lead"><i class="fas fa-bath"></i> <i class="fas fa-wifi"></i> <i class="fas fa-phone-volume"></i> <i class="fas fa-tv"></i> <i class="fas fa-wine-glass-alt"></i> <i class="fas fa-utensils"></i> <i class="fas fa-tshirt"></i> <i class="fas fa-swimming-pool"></i></p>
-                          <button class="btn btn-dark" type="button"><a class="text-decoration-none" href="/rooms.html#suiteBedPage"> Choose Room</a></button>
+                          <div class="btn btn-dark"><a class="text-decoration-none" href="rooms.html#suiteBedPage"> Choose Room</a></div>
                         </div>
                       </div>
 
@@ -259,9 +260,8 @@
   
                       <div class="col-md-6 col-sm-12" data-aos="fade-left"  data-aos-offset="100" data-aos-duration="10000"  data-aos-easing="ease-in-out"  data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center"> 
                       <div class="img-d"><h3 class="courgette">HAYDER ALIJIF CENTER ,BAKU</h3>
-                        <p class="lead merianda">Heydar Aliyev Center is one of the world-famous cultural centers, designed by Zaha Hadid. It is located in Baku, Azerbaijan. Zaha Hadid won the 2014 London Design Museum Award for this center.
+                        <p class="lead merianda">Heydar Aliyev Center is one of the world-famous cultural centers, designed by Zaha Hadid. It is located in Baku, Azerbaijan. Zaha Hadid won the 2014 London Design Museum Award for this center. </p>
                       </div>
-                      </p>
                     </div>
                   </div>
                   </div>
@@ -394,18 +394,18 @@
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title merianda"  id="exampleModalLabel">JOIN NOW,</h5>
+                                <h5 class="modal-title merianda"  id="exampleModal">JOIN NOW,</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                   <span aria-hidden="true">&times;</span>
                                 </button>
                               </div>
                               <div class="modal-body text-left">
                                 
-                                <form action="GET" class="form-group">
+                                <form method="GET" class="form-group">
                                   
                                   <div class="heading-form text-center">
                                     <img src="images/logo.png" alt="logo">
@@ -428,8 +428,6 @@
                                   </div>
                                 </div>
                                   <input type="checkbox" required/> <br> <label class="terms">You understand the rules of the Warwick Journeys terms and conditions. Your personal data will be processed for the creation and use of an account only. More information is available in our Privacy Notice.</label>
-
-                                </form>
 
                                 </form>
                               </div>
@@ -460,7 +458,7 @@
                                     </div>
                                     <div class="modal-body text-left">
                                       
-                                      <form action="GET" class="form-group">
+                                      <form method="GET" class="form-group">
                                         
                                         <div class="heading-form text-center">
                                           <img src="images/logo.png" alt="logo">
@@ -468,11 +466,11 @@
                                           <span class="great-vibes">Paradise</span>
                                         </div>
 
-                                        <label for="email">Email Address</label> <br>
+                                        <label>Email Address</label> <br>
                                         <input type="email" name="email" placeholder="Email" class="form-control no-border"> <br>
 
                                         <div class="eye2">
-                                        <label for="password">Password</label> <br>
+                                        <label>Password</label> <br>
                                         <input type="password" name="password" placeholder="Password" class="form-control" id="changeAttr2">
                                         <a class="courgette" href="#">Forget Your Password?</a>
 
@@ -611,7 +609,7 @@
                                   <p class="lead">&copy; 2020 Paradise Hotel & Resort, All rights reserved</p>
                                 </div>
                               </div>
-                            
+                            </div>
                       </footer>
                       <!-- start of footer -->
 
